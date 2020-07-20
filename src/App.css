@@ -1,0 +1,38 @@
+body{
+  background-color: #3A4750;
+}
+.App{
+  margin-right: 50px;
+  background:#7FA998 ;
+  min-height:600px;
+  width:500px;
+  margin:50px auto;
+
+}
+.todo input{
+  border: 0;
+  font-size: 18px;
+  background-color:#F69E7B;
+  color: whitesmoke;
+  width:300px;
+  height: 55px;
+  margin: 20px;
+  padding:0 20px;
+  border-radius: 15px;
+
+}
+.todo button {
+  border:0;
+  border-radius: 10px;
+  height: 55px;
+  width: 75px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 18px;
+  background-color: #B75D69;
+  
+}
+
+.todo button,input:focus{
+  outline: none;
+}

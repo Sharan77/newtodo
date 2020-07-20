@@ -1,0 +1,35 @@
+.newList {
+    border-radius: 10px;
+    width:300px;
+    height: 50px;
+    margin: auto;
+    margin-left: 25px;
+    background-color:#fff ;
+
+}
+.newList p {
+    padding: 12px;
+    position: relative;
+    transition: ease-in-out;
+}
+.newList p span{
+    position: absolute;
+   
+    left: 220px;
+}
+.newList p input{
+    background:transparent;
+    border: 0;
+    color:black;
+    font-size: 20px;
+
+}
+.btn{
+    padding: 5px 8px;
+    background-color:transparent;
+    color: black;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px dashed whitesmoke;
+}
